@@ -1,4 +1,4 @@
-const form1 = documet.getElementById("form1");
+const form1 = document.getElementById("form1");
 function getFormvalue(event) {
     //Write your code here
 	event.preventDefault();
