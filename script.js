@@ -1,5 +1,5 @@
 // const form1 = document.getElementById("form1");
-function getFormvalue(event) {
+function getFormvalue() {
     //Write your code here
 	event.preventDefault();
 	let firstName = document.getElementById("fname").value;
