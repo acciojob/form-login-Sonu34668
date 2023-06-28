@@ -1,4 +1,4 @@
-const form1 = document.getElementById("form1");
+// const form1 = document.getElementById("form1");
 function getFormvalue(event) {
     //Write your code here
 	event.preventDefault();
@@ -6,4 +6,4 @@ function getFormvalue(event) {
 	let lastName = document.getElementById("lname").value;
 	alert("First Name: "+ fname + "\nLast Name: " + lname);
 }
-form1.addEventListener("submit", getFormvalue);
+// form1.addEventListener("submit", getFormvalue);
